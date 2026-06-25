@@ -1,0 +1,31 @@
+# Environment Variables (CRITICAL - Keeps your API keys safe)
+.env
+.env.local
+.env.*.local
+
+# Python virtual environment
+venv/
+.venv/
+env/
+ENV/
+pyvenv.cfg
+
+# Python bytecode & cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+
+# Local Vector Database storage (if Chroma ever switches from in-memory to persistent)
+chroma_db/
+.chroma/
+
+# Machine Learning / HuggingFace caches
+.cache/
+huggingface/
+
+# Operating System files
+.DS_Store
+Thumbs.db
